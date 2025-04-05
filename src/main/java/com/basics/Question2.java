@@ -2,8 +2,8 @@ package com.basics;
 
 //2. Implement a program to demonstrate hierarchical inheritance:  Base class Vehicle with fields make and model.  Derived classes Car and Bike that extend Vehicle.  Add unique methods to both derived classes and display their features
 class Vehicle {
-    String brand;
-    String model;
+    private String brand;
+    private String model;
 
     public Vehicle(String brand, String model) {
         this.brand = brand;

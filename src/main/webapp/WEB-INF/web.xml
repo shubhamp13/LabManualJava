@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Question14</servlet-name>
+    <servlet-class>com.servlets.Question14</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Question14</servlet-name>
+    <url-pattern>/event</url-pattern>
+  </servlet-mapping>
 </web-app>

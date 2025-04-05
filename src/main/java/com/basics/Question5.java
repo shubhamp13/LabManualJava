@@ -1,6 +1,7 @@
 package com.basics;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
@@ -76,5 +77,6 @@ public class Question5
         employees.add(new Employee(10,"Jack",900.00));
         employees.sort((e1, e2) -> Double.compare(e2.getSalary(), e1.getSalary()));
         employees.forEach(System.out::println);
+        Collections.sort(employees,(a,b)->Double.compare(a.getSalary(),b.getSalary()));
     }
 }
