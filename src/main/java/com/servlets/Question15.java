@@ -61,8 +61,6 @@ public class Question15 extends HttpServlet {
 
     }
 
-
-
     private void insertForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter out = response.getWriter();
         response.setContentType("text/html");
