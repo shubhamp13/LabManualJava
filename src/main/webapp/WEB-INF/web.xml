@@ -12,4 +12,34 @@
     <servlet-name>Question14</servlet-name>
     <url-pattern>/event</url-pattern>
   </servlet-mapping>
+
+    <servlet>
+      <servlet-name>question25</servlet-name>
+      <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>question25</servlet-name>
+      <url-pattern>/question25/*</url-pattern>
+    </servlet-mapping>
+  <servlet>
+    <servlet-name>question26</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>question26</servlet-name>
+    <url-pattern>/question26/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>question28</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>question28</servlet-name>
+    <url-pattern>/question28/*</url-pattern>
+  </servlet-mapping>
+
+
+
+
 </web-app>

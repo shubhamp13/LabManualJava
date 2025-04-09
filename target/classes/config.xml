@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.question30.Address" name="address">
+        <property name="street"  value="Narhe Road"/>
+        <property name="state" value="maharashtra"/>
+        <property name="zip" value="411041"/>
+        <property name="city" value="pune"/>
+    </bean>
+    <bean class="com.question30.Student">
+        <property name="name" value="Shubham Puri"/>
+        <property name="age" value="26"/>
+        <property name="address" ref="address"/>
+    </bean>
+</beans>
